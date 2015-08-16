@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, .wrap {
+	height: 100%;
+	width: 100%;
+	font-family: "Avenir Next", Helvetica;
+}
+
+svg {
+	background: url(back.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+circle, rect, text {
+	cursor: pointer;
+}
+
+text {
+	pointer-events: none;
+}
